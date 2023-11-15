@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(90deg, rgb(3, 3, 3), rgb(22, 22, 22));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow:hidden;
+   
+    
+}
+
+.titulo {
+    margin-top: 50px;
+    color: white;  
+    text-align: center; 
+    font-family: monospace;
+}
+
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:75vh;
+    margin: 50px;    
+ 
+   
+}
+
+.caixa {
+    
+    height: 450px;
+    width: 600px;
+    background: rgb(23, 24, 24);
+    border:  solid rgb(17, 16, 16);
+    box-shadow: 0px 0px 10px 5px rgba(252, 249, 255, 0.644);
+    padding: 20px;
+    font-family: arial;
+    color: white;
+    transition: 1s;
+    font-weight: 900;
+}
+
+.caixa:hover {
+    transform: scale(1.03);
+    transition: 1s;
+    border-bottom: 15px solid rgb(221, 14, 248);
+}
+
+#nome {
+    background: none;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 200px;
+    color: white;
+    font-family: monospace;
+}
+
+#nome, #ano:focus {
+    outline: none;
+}
+
+
+
+
+#ano {
+    background: none;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    margin-top: 10px;
+    width: 200px;
+    color: white;
+    font-family: monospace;
+}
+
+button {
+    margin-top: 20px;
+    border: 1px solid rgb(110, 54, 110);
+    background: rgb(126, 43, 126);
+   
+    width: 150px;
+    color: white;
+}
+
+button:hover {
+    border:1px solid white
+}
